@@ -1,19 +1,37 @@
-# Bar Parlamento · concepto web
+# Bar Parlamento — concepto web 2026
 
-Propuesta web original para Bar Parlamento, Logroño. Página estática en HTML, CSS y JavaScript. La composición toma el lenguaje de los carteles, actas y sellos como punto de partida para contar la personalidad cañera y de rock&roll de la cervecería sin repetir la estructura de La Tabola.
+Rediseño editorial de cinco páginas para Bar Parlamento, Logroño. La idea visual recorre **de la plaza a la primera planta, del día a la noche**. El azul procede de los asientos y la terraza visibles en la presencia actual del bar; la cerveza toma luz cálida y el lounge tonos nocturnos.
 
-## Recorrido
+## Páginas
 
-La página reúne la presentación del bar, la cerveza de elaboración propia y la selección de nevera, el jueves de la pinta, una muestra interactiva de la carta de cócteles, el lounge, las shishas, las opciones para eventos privados y la información para visitar o llamar. El contenido se puede recorrer desde el menú y desde el «orden del día» de la portada.
+- `index.html`: presentación del bar, tres experiencias y jueves de pinta.
+- `cerveceria.html`: cerveza propia, tres tiradores, artesanas, belgas, alemanas, del mundo, sin gluten y jueves de pinta.
+- `cocteleria.html`: los doce cócteles publicados por el negocio con ingredientes resumidos.
+- `lounge.html`: primera planta, café, vermú, tardeo, shishas, sabores y eventos privados.
+- `contacto.html`: dirección, teléfono, Instagram y opciones de reserva.
 
-## Fuentes y referencias
+## Referencias de diseño
 
-- [Web oficial de Bar Parlamento](https://barparlamento.com/): cervecería, coctelería, lounge, contacto y tono del negocio.
-- [Cervecería y día de la pinta](https://barparlamento.com/cerveceria-en-el-centro/): cerveza de elaboración propia y cita de los jueves.
-- [Carta de coctelería](https://barparlamento.com/cocteleria/): nombres e ingredientes de los cócteles destacados.
-- [Lounge Bar](https://barparlamento.com/shishas-logrono/) y [contacto](https://barparlamento.com/contacto/): primera planta, shishas, sabores, opciones de reserva, dirección y teléfono.
-- [Bar Leone](https://www.barleonehk.com/): fotografía social y marca accesible con carácter.
-- [The Dead Rabbit](https://www.thedeadrabbit.com/): lenguaje visual de pub, tipografía y acceso directo a información práctica.
-- [La Maripepa](https://www.lamaripepa.com/): foco en la cultura cervecera y los tiradores.
+- [Dante, Nueva York](https://www.dante-nyc.com/): fotografía protagonista y navegación contenida.
+- [Paradiso, Barcelona](https://paradiso.cat/ca/): marca tipográfica de gran escala y carácter cinematográfico.
+- [The Clumsies, Atenas](https://theclumsies.gr/?lang=en): recorrido narrativo por distintos espacios.
 
-Las fotografías de `assets/` son imágenes editoriales generadas para este concepto y **no documentan el local ni sus bebidas reales**. Antes de adoptarlo como web oficial conviene sustituirlas por fotografías propias. Los horarios y precios se omiten porque pueden variar; el enlace a la web oficial permite consultar información vigente. Las variedades de cerveza y shisha también pueden cambiar, como se indica en la página.
+Estas referencias orientan la composición y la experiencia. El diseño y el contenido de esta web se crearon para Parlamento.
+
+## Fuentes del negocio
+
+- [Web oficial](https://barparlamento.com/)
+- [Cervecería](https://barparlamento.com/cerveceria-en-el-centro/)
+- [Coctelería](https://barparlamento.com/cocteleria/)
+- [Lounge Bar](https://barparlamento.com/shishas-logrono/)
+- [Contacto y eventos](https://barparlamento.com/contacto/)
+
+La disponibilidad de bebidas y sabores puede variar. Para horarios y reservas se invita a llamar, ya que el horario publicado en la web original no era inequívoco al preparar este concepto.
+
+## Fotografía
+
+Las imágenes WebP de `assets/` son **ilustraciones editoriales generadas para este concepto**. No representan el local, el personal ni productos concretos reales. Antes de usar esta versión como web oficial del negocio, conviene sustituirlas por fotografías autorizadas del Parlamento.
+
+## Desarrollo
+
+Sitio estático sin dependencias de ejecución. Las páginas HTML se generan con `node build.mjs`; `styles-v2.css` contiene el nuevo sistema visual. Publicable en GitHub Pages desde la raíz de `main`.
